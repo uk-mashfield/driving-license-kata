@@ -124,6 +124,6 @@ def test_year_digit(data, expected, driving_license_generator: DrivingLicense):
                              (["Henry", "", "Smith", "05-May-2000", "M"], "H9"),
                              (["zak", "towley", "Smith", "06-Jun-2000", "M"], "ZT"),
                          ])
-def test_day_of_birth(data, expected, driving_license_generator: DrivingLicense):
+def test_initials(data, expected, driving_license_generator: DrivingLicense):
     initials = driving_license_generator(data).get_initials()
     assert initials == expected
