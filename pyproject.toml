@@ -8,6 +8,8 @@ packages = [{include = "driving_license_kata"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+fastapi = "^0.85.1"
+uvicorn = {extras = ["standard"], version = "^0.19.0"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "7.1.3"
