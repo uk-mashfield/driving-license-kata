@@ -1,4 +1,4 @@
-from driving_license_kata.driving_license import DrivingLicense
+from driving_license.driving_license import DrivingLicense
 import pytest
 
 
